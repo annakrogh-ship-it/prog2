@@ -1,3 +1,4 @@
+#!/usr/bin/python3 
 """ MA3.py
 
 Student: Anna Krogh
