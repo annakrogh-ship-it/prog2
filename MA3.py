@@ -25,6 +25,8 @@ def approximate_pi(n): # Ex1
             cirkel.append([x, y])
         else:
             square.append([x, y])
+    print(f'Number of points: {n}')
+    print(f'Approximation of pi: {4 * (len(cirkel)/ (len(cirkel) + len(square)))}')
     plt.plot([n[0] for n in cirkel], [n[1] for n in cirkel], '.', color='red')
     plt.plot([n[0] for n in square], [n[1] for n in square], '.', color='blue')
     plt.show()
